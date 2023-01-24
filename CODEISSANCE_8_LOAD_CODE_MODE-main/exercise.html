@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Exercises</h2>
+
+    <label for="cars">List of Excercise by </label>
+
+    <select name="cars" id="type" onchange="detectChange(this)">
+        <option value="bodyPart">Body part</option>
+        <option value="target">Muscle</option>
+        <option value="equipment">Equipment</option>
+    </select>
+    <br>
+
+    <div id="sub-type-div">
+        <label for="sub-type">Select</label>
+        <select name="" id="sub-type" value = "sub-type-value" onchange="detectSubChange(this)">
+
+        </select>
+    </div>
+
+    <button id="find-ex">Find Excercises</button>
+
+    <div id="ex-name">
+
+    </div>
+
+    <div id="gifDiv">
+
+        <img  alt="" id="gif">
+    </div>
+
+    <div id="body-part">
+
+    </div>
+
+    <div id="equipment">
+
+    </div>
+
+
+    <div id="target">
+
+    </div>
+
+    
+    <button id="prev" >Prev</button>
+    <button id="next">Next</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
